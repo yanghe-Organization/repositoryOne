@@ -16,15 +16,14 @@ import app.service.EmpService;
 public class EmpTest {
 	@Autowired
 	private EmpService service;
-	@Autowired
-	private EmpRepository repository;
+	
 	
 	
 	
 	@Test
-	public void addUser(){
+	public void register(){
 		Employee emp=new Employee( "zhangsan", "man", "beijing", "1325555", 1, 25);
-		repository.save(emp);
+		service.addEmployee(emp);
 	}
 	
 	@Test

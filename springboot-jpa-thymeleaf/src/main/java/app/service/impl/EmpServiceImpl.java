@@ -16,5 +16,11 @@ public class EmpServiceImpl implements EmpService{
 		Employee emp=repository.findById(id);
 		return emp;
 	}
+	@Override
+	public void addEmployee(Employee emp) {
+		// TODO Auto-generated method stub
+		repository.save(emp);
+		
+	}
 
 }
