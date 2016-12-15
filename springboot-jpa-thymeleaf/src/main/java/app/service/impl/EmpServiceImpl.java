@@ -1,5 +1,7 @@
 package app.service.impl;
 
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,5 +37,14 @@ public class EmpServiceImpl implements EmpService{
 		Employee emp=repository.findByIdAndPassWord(id, pwd);
 		return emp;
 	}
+	@Override
+	public List<Employee> empManage() {
+		// TODO Auto-generated method stub
+		List<Employee> list=repository.findAll();
+		
+		return list;
+	}
+	
+	
 
 }

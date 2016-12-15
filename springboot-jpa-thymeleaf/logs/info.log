@@ -4399,3 +4399,1329 @@
 2016-12-14 17:46:50 [app.aspect.LogAspect:42] - -----方法findByIdAndPassWord被调用-----
 2016-12-14 17:48:34 [app.service.impl.EmpServiceImpl:34] - id:1pwd:123456
 2016-12-14 17:48:34 [app.aspect.LogAspect:42] - -----方法findByIdAndPassWord被调用-----
+2016-12-15 09:43:47 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 7576 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 09:43:47 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 09:43:47 [org.hibernate.validator.internal.util.Version:17] - HV000001: Hibernate Validator 5.2.2.Final
+2016-12-15 09:43:47 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40996815: startup date [Thu Dec 15 09:43:47 CST 2016]; root of context hierarchy
+2016-12-15 09:43:49 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60a505af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 09:43:49 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 09:43:49 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 09:43:49 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 09:43:49 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 09:43:49 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 1801 ms
+2016-12-15 09:43:50 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 09:43:50 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 09:43:50 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 09:43:50 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 09:43:50 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 09:43:50 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 09:43:50 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 09:43:50 [org.hibernate.Version:54] - HHH000412: Hibernate Core {4.3.11.Final}
+2016-12-15 09:43:50 [org.hibernate.cfg.Environment:239] - HHH000206: hibernate.properties not found
+2016-12-15 09:43:50 [org.hibernate.cfg.Environment:346] - HHH000021: Bytecode provider name : javassist
+2016-12-15 09:43:50 [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 09:43:50 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 09:43:50 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 09:43:50 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 09:43:50 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 09:43:50 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 09:43:50 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 09:43:50 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 09:43:50 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 09:43:50 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 09:43:50 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 09:43:51 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40996815: startup date [Thu Dec 15 09:43:47 CST 2016]; root of context hierarchy
+2016-12-15 09:43:51 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 09:43:51 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 09:43:51 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 09:43:51 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 09:43:51 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 09:43:51 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 09:43:51 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 09:43:51 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 09:43:51 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 09:43:51 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 09:43:52 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 09:43:52 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 09:43:52 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 09:43:52 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 09:43:52 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 4.528 seconds (JVM running for 4.878)
+2016-12-15 09:44:17 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 09:44:17 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 09:44:17 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2016-12-15 09:44:17 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 09:44:17 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 09:44:17 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 09:44:17 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 09:44:17 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 09:44:17 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 09:44:17 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 09:44:26 [app.service.impl.EmpServiceImpl:34] - id:2pwd:123456
+2016-12-15 09:44:26 [app.aspect.LogAspect:42] - -----方法findByIdAndPassWord被调用-----
+2016-12-15 09:46:51 [app.service.impl.EmpServiceImpl:34] - id:2pwd:123456
+2016-12-15 09:46:51 [app.aspect.LogAspect:42] - -----方法findByIdAndPassWord被调用-----
+2016-12-15 09:53:53 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40996815: startup date [Thu Dec 15 09:43:47 CST 2016]; root of context hierarchy
+2016-12-15 09:53:53 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 09:53:53 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 09:53:54 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 7576 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 09:53:54 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 09:53:54 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c0893ec: startup date [Thu Dec 15 09:53:54 CST 2016]; root of context hierarchy
+2016-12-15 09:53:54 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60a505af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 09:53:54 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 09:53:54 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 09:53:54 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 09:53:54 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 09:53:54 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 640 ms
+2016-12-15 09:53:54 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 09:53:54 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 09:53:54 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 09:53:54 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 09:53:54 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 09:53:55 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 09:53:55 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 09:53:55 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 09:53:55 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 09:53:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 09:53:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 09:53:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 09:53:55 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 09:53:55 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 09:53:55 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 09:53:55 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 09:53:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 09:53:55 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c0893ec: startup date [Thu Dec 15 09:53:54 CST 2016]; root of context hierarchy
+2016-12-15 09:53:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 09:53:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 09:53:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 09:53:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public void app.controller.EmpController.empManage()
+2016-12-15 09:53:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 09:53:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 09:53:55 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 09:53:55 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 09:53:55 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 09:53:55 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 09:53:55 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 09:53:55 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 09:53:55 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 09:53:55 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 09:53:55 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 09:53:55 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 1.218 seconds (JVM running for 608.18)
+2016-12-15 09:56:54 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c0893ec: startup date [Thu Dec 15 09:53:54 CST 2016]; root of context hierarchy
+2016-12-15 09:56:54 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 09:56:54 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 09:56:55 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 7576 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 09:56:55 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 09:56:55 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2021582c: startup date [Thu Dec 15 09:56:55 CST 2016]; root of context hierarchy
+2016-12-15 09:56:55 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60a505af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 09:56:55 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 09:56:55 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 09:56:55 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 09:56:55 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 09:56:55 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 454 ms
+2016-12-15 09:56:55 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 09:56:55 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 09:56:55 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 09:56:55 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 09:56:55 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 09:56:55 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 09:56:55 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 09:56:55 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 09:56:55 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 09:56:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 09:56:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 09:56:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 09:56:55 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 09:56:55 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 09:56:55 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 09:56:55 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 09:56:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 09:56:55 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2021582c: startup date [Thu Dec 15 09:56:55 CST 2016]; root of context hierarchy
+2016-12-15 09:56:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 09:56:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 09:56:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 09:56:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public void app.controller.EmpController.empManage()
+2016-12-15 09:56:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 09:56:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 09:56:55 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 09:56:55 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 09:56:55 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 09:56:55 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 09:56:56 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 09:56:56 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 09:56:56 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 09:56:56 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 09:56:56 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 09:56:56 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.921 seconds (JVM running for 788.828)
+2016-12-15 10:12:58 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2021582c: startup date [Thu Dec 15 09:56:55 CST 2016]; root of context hierarchy
+2016-12-15 10:12:58 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 10:12:58 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 10:12:58 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 7576 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 10:12:58 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 10:12:58 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4717054d: startup date [Thu Dec 15 10:12:58 CST 2016]; root of context hierarchy
+2016-12-15 10:12:59 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60a505af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 10:12:59 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 10:12:59 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 10:12:59 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 10:12:59 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 10:12:59 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 406 ms
+2016-12-15 10:12:59 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 10:12:59 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 10:12:59 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 10:12:59 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 10:12:59 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 10:12:59 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 10:12:59 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 10:12:59 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 10:12:59 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 10:12:59 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 10:12:59 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 10:12:59 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 10:12:59 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 10:12:59 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 10:12:59 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 10:12:59 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 10:12:59 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 10:12:59 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4717054d: startup date [Thu Dec 15 10:12:58 CST 2016]; root of context hierarchy
+2016-12-15 10:12:59 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 10:12:59 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 10:12:59 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 10:12:59 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public void app.controller.EmpController.empManage()
+2016-12-15 10:12:59 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 10:12:59 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 10:12:59 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:12:59 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:12:59 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:12:59 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 10:12:59 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 10:12:59 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:12:59 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:12:59 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 10:12:59 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 10:12:59 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.844 seconds (JVM running for 1752.4)
+2016-12-15 10:32:14 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10988 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 10:32:14 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 10:32:14 [org.hibernate.validator.internal.util.Version:17] - HV000001: Hibernate Validator 5.2.2.Final
+2016-12-15 10:32:14 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@de98793: startup date [Thu Dec 15 10:32:14 CST 2016]; root of context hierarchy
+2016-12-15 10:32:16 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$327090a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 10:32:16 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 10:32:16 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 10:32:16 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 10:32:16 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 10:32:16 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 1826 ms
+2016-12-15 10:32:17 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 10:32:17 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 10:32:17 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 10:32:17 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 10:32:17 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 10:32:17 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 10:32:17 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 10:32:17 [org.hibernate.Version:54] - HHH000412: Hibernate Core {4.3.11.Final}
+2016-12-15 10:32:17 [org.hibernate.cfg.Environment:239] - HHH000206: hibernate.properties not found
+2016-12-15 10:32:17 [org.hibernate.cfg.Environment:346] - HHH000021: Bytecode provider name : javassist
+2016-12-15 10:32:17 [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 10:32:17 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 10:32:17 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 10:32:17 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 10:32:17 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 10:32:17 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 10:32:17 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 10:32:17 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 10:32:17 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 10:32:17 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 10:32:17 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 10:32:18 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@de98793: startup date [Thu Dec 15 10:32:14 CST 2016]; root of context hierarchy
+2016-12-15 10:32:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 10:32:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 10:32:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 10:32:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 10:32:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 10:32:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 10:32:18 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:32:18 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:32:18 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:32:18 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 10:32:18 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 10:32:18 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:32:18 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:32:18 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 10:32:18 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 10:32:18 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 4.373 seconds (JVM running for 4.732)
+2016-12-15 10:32:50 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 10:32:50 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 10:32:50 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2016-12-15 10:32:50 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 10:32:50 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 10:32:50 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 10:32:50 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 10:32:50 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 10:32:50 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 10:32:50 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 10:32:56 [app.service.impl.EmpServiceImpl:36] - id:1pwd:123456
+2016-12-15 10:32:56 [app.aspect.LogAspect:42] - -----方法findByIdAndPassWord被调用-----
+2016-12-15 10:39:55 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 10:39:55 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 10:39:55 [org.hibernate.validator.internal.util.Version:17] - HV000001: Hibernate Validator 5.2.2.Final
+2016-12-15 10:39:55 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@674e92d6: startup date [Thu Dec 15 10:39:55 CST 2016]; root of context hierarchy
+2016-12-15 10:39:56 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 10:39:56 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 10:39:56 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 10:39:56 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 10:39:57 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 10:39:57 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 1779 ms
+2016-12-15 10:39:57 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 10:39:57 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 10:39:57 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 10:39:57 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 10:39:57 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 10:39:57 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 10:39:57 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 10:39:57 [org.hibernate.Version:54] - HHH000412: Hibernate Core {4.3.11.Final}
+2016-12-15 10:39:57 [org.hibernate.cfg.Environment:239] - HHH000206: hibernate.properties not found
+2016-12-15 10:39:57 [org.hibernate.cfg.Environment:346] - HHH000021: Bytecode provider name : javassist
+2016-12-15 10:39:57 [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 10:39:57 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 10:39:57 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 10:39:58 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 10:39:58 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 10:39:58 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 10:39:58 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 10:39:58 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 10:39:58 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 10:39:58 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 10:39:58 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 10:39:58 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@674e92d6: startup date [Thu Dec 15 10:39:55 CST 2016]; root of context hierarchy
+2016-12-15 10:39:58 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 10:39:58 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 10:39:58 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 10:39:58 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 10:39:58 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 10:39:58 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 10:39:58 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:39:58 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:39:58 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:39:59 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 10:39:59 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 10:39:59 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:39:59 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:39:59 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 10:39:59 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 10:39:59 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 4.376 seconds (JVM running for 4.719)
+2016-12-15 10:40:07 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 10:40:07 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 10:40:07 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2016-12-15 10:40:07 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 10:40:07 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 10:40:07 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 10:40:07 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 10:40:07 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 10:40:07 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 10:40:07 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 10:40:12 [app.service.impl.EmpServiceImpl:36] - id:2pwd:123456
+2016-12-15 10:40:12 [app.aspect.LogAspect:42] - -----方法findByIdAndPassWord被调用-----
+2016-12-15 10:40:43 [app.aspect.LogAspect:42] - -----方法findAll被调用-----
+2016-12-15 10:43:22 [app.aspect.LogAspect:42] - -----方法findAll被调用-----
+2016-12-15 10:44:08 [app.aspect.LogAspect:42] - -----方法findAll被调用-----
+2016-12-15 10:45:06 [app.aspect.LogAspect:42] - -----方法findAll被调用-----
+2016-12-15 10:49:14 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@674e92d6: startup date [Thu Dec 15 10:39:55 CST 2016]; root of context hierarchy
+2016-12-15 10:49:14 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 10:49:14 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 10:49:14 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 10:49:14 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 10:49:14 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ea5dae9: startup date [Thu Dec 15 10:49:14 CST 2016]; root of context hierarchy
+2016-12-15 10:49:15 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 10:49:15 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 10:49:15 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 10:49:15 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 10:49:15 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 10:49:15 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 642 ms
+2016-12-15 10:49:15 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 10:49:15 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 10:49:15 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 10:49:15 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 10:49:15 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 10:49:15 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 10:49:15 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 10:49:15 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 10:49:15 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 10:49:15 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 10:49:15 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 10:49:15 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 10:49:15 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 10:49:15 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 10:49:15 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 10:49:15 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 10:49:15 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 10:49:15 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ea5dae9: startup date [Thu Dec 15 10:49:14 CST 2016]; root of context hierarchy
+2016-12-15 10:49:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 10:49:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 10:49:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 10:49:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 10:49:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 10:49:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 10:49:15 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:49:15 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:49:15 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:49:16 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 10:49:16 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 10:49:16 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:49:16 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:49:16 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 10:49:16 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 10:49:16 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 1.349 seconds (JVM running for 561.494)
+2016-12-15 10:58:17 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ea5dae9: startup date [Thu Dec 15 10:49:14 CST 2016]; root of context hierarchy
+2016-12-15 10:58:17 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 10:58:17 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 10:58:18 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 10:58:18 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 10:58:18 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@367c0a74: startup date [Thu Dec 15 10:58:18 CST 2016]; root of context hierarchy
+2016-12-15 10:58:18 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 10:58:18 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 10:58:18 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 10:58:18 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 10:58:18 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 10:58:18 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 465 ms
+2016-12-15 10:58:18 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 10:58:18 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 10:58:18 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 10:58:18 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 10:58:18 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 10:58:18 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 10:58:18 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 10:58:18 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 10:58:18 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 10:58:18 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 10:58:18 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 10:58:18 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 10:58:18 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 10:58:18 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 10:58:18 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 10:58:18 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 10:58:18 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 10:58:18 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@367c0a74: startup date [Thu Dec 15 10:58:18 CST 2016]; root of context hierarchy
+2016-12-15 10:58:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 10:58:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 10:58:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 10:58:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 10:58:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 10:58:18 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 10:58:18 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:58:18 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:58:19 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 10:58:19 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 10:58:19 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 10:58:19 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:58:19 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 10:58:19 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 10:58:19 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 10:58:19 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.944 seconds (JVM running for 1104.551)
+2016-12-15 14:09:47 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@367c0a74: startup date [Thu Dec 15 10:58:18 CST 2016]; root of context hierarchy
+2016-12-15 14:09:47 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:09:47 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:09:48 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:09:48 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:09:48 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2467953: startup date [Thu Dec 15 14:09:48 CST 2016]; root of context hierarchy
+2016-12-15 14:09:48 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:09:48 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:09:48 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:09:48 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:09:48 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:09:48 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 477 ms
+2016-12-15 14:09:48 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:09:48 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:09:48 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:09:48 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:09:48 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:09:48 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:09:48 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:09:48 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:09:48 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:09:48 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:09:48 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:09:48 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:09:48 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:09:48 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:09:48 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:09:48 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:09:48 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:09:48 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2467953: startup date [Thu Dec 15 14:09:48 CST 2016]; root of context hierarchy
+2016-12-15 14:09:48 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:09:48 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:09:48 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:09:48 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:09:48 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:09:48 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:09:48 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:09:48 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:09:48 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:09:49 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:09:49 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:09:49 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:09:49 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:09:49 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:09:49 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:09:49 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.957 seconds (JVM running for 12594.481)
+2016-12-15 14:10:55 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2467953: startup date [Thu Dec 15 14:09:48 CST 2016]; root of context hierarchy
+2016-12-15 14:10:55 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:10:55 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:10:56 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:10:56 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:10:56 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@35452720: startup date [Thu Dec 15 14:10:56 CST 2016]; root of context hierarchy
+2016-12-15 14:10:56 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:10:56 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:10:56 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:10:56 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:10:56 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:10:56 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 434 ms
+2016-12-15 14:10:56 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:10:56 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:10:56 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:10:56 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:10:56 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:10:56 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:10:56 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:10:56 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:10:56 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:10:56 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:10:56 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:10:56 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:10:56 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:10:56 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:10:56 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:10:56 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:10:56 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:10:56 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@35452720: startup date [Thu Dec 15 14:10:56 CST 2016]; root of context hierarchy
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/register]}" onto public void app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:10:56 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:10:56 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:10:56 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:10:56 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:10:56 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:10:56 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:10:56 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:10:56 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.871 seconds (JVM running for 12662.355)
+2016-12-15 14:11:27 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 14:11:27 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 14:11:27 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms
+2016-12-15 14:11:27 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 14:11:27 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 14:11:27 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 14:11:27 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 14:11:27 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 14:11:27 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 14:11:27 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 14:17:54 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@35452720: startup date [Thu Dec 15 14:10:56 CST 2016]; root of context hierarchy
+2016-12-15 14:17:54 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:17:54 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:17:55 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:17:55 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:17:55 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72d9e5: startup date [Thu Dec 15 14:17:55 CST 2016]; root of context hierarchy
+2016-12-15 14:17:55 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:17:55 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:17:55 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:17:55 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:17:55 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:17:55 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 414 ms
+2016-12-15 14:17:55 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:17:55 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:17:55 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:17:55 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:17:55 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:17:55 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:17:55 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:17:55 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:17:55 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:17:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:17:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:17:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:17:55 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:17:55 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:17:55 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:17:55 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:17:55 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:17:55 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72d9e5: startup date [Thu Dec 15 14:17:55 CST 2016]; root of context hierarchy
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public void app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:17:55 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:17:55 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:17:55 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:17:55 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:17:55 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:17:55 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:17:55 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:17:55 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.826 seconds (JVM running for 13081.361)
+2016-12-15 14:18:03 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 14:18:03 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 14:18:03 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+2016-12-15 14:18:03 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 14:18:03 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 14:18:03 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 14:18:03 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 14:18:03 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 14:18:03 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 14:18:03 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 14:19:21 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72d9e5: startup date [Thu Dec 15 14:17:55 CST 2016]; root of context hierarchy
+2016-12-15 14:19:21 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:19:21 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:19:22 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:19:22 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:19:22 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eab2dd3: startup date [Thu Dec 15 14:19:22 CST 2016]; root of context hierarchy
+2016-12-15 14:19:22 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:19:22 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:19:22 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:19:22 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:19:22 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:19:22 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 411 ms
+2016-12-15 14:19:22 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:19:22 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:19:22 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:19:22 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:19:22 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:19:22 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:19:22 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:19:22 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:19:22 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:19:22 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:19:22 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:19:22 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:19:22 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:19:22 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:19:22 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:19:22 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:19:22 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:19:22 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eab2dd3: startup date [Thu Dec 15 14:19:22 CST 2016]; root of context hierarchy
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:19:22 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:19:22 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:19:22 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:19:22 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:19:22 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:19:22 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:19:22 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:19:22 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.795 seconds (JVM running for 13168.22)
+2016-12-15 14:19:33 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 14:19:33 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 14:19:33 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2016-12-15 14:19:33 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 14:19:33 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 14:19:33 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 14:19:33 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 14:19:33 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 14:19:33 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 14:19:33 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 14:21:10 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6eab2dd3: startup date [Thu Dec 15 14:19:22 CST 2016]; root of context hierarchy
+2016-12-15 14:21:10 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:21:10 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:21:10 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:21:10 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:21:10 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ed3a87a: startup date [Thu Dec 15 14:21:10 CST 2016]; root of context hierarchy
+2016-12-15 14:21:11 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:21:11 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:21:11 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:21:11 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:21:11 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:21:11 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 396 ms
+2016-12-15 14:21:11 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:21:11 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:21:11 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:21:11 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:21:11 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:21:11 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:21:11 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:21:11 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:21:11 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:21:11 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:21:11 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:21:11 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:21:11 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:21:11 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:21:11 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:21:11 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:21:11 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:21:11 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ed3a87a: startup date [Thu Dec 15 14:21:10 CST 2016]; root of context hierarchy
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:21:11 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:21:11 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:21:11 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:21:11 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:21:11 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:21:11 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:21:11 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:21:11 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.776 seconds (JVM running for 13277.172)
+2016-12-15 14:21:14 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 14:21:14 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 14:21:14 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2016-12-15 14:21:14 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 14:21:14 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 14:21:14 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 14:21:14 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 14:21:14 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 14:21:14 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 14:21:14 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 14:21:34 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3ed3a87a: startup date [Thu Dec 15 14:21:10 CST 2016]; root of context hierarchy
+2016-12-15 14:21:34 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:21:34 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:21:34 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:21:34 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:21:34 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8cf2fe: startup date [Thu Dec 15 14:21:34 CST 2016]; root of context hierarchy
+2016-12-15 14:21:34 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:21:34 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:21:34 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:21:34 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:21:34 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:21:34 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 404 ms
+2016-12-15 14:21:34 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:21:34 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:21:34 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:21:34 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:21:34 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:21:35 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:21:35 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:21:35 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:21:35 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:21:35 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:21:35 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:21:35 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:21:35 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:21:35 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:21:35 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:21:35 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:21:35 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:21:35 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8cf2fe: startup date [Thu Dec 15 14:21:34 CST 2016]; root of context hierarchy
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:21:35 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:21:35 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:21:35 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:21:35 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:21:35 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:21:35 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:21:35 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:21:35 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.784 seconds (JVM running for 13300.682)
+2016-12-15 14:21:35 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 14:21:35 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 14:21:35 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2016-12-15 14:21:35 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 14:21:35 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 14:21:35 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 14:21:35 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 14:21:35 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 14:21:35 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 14:21:35 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 14:37:25 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a8cf2fe: startup date [Thu Dec 15 14:21:34 CST 2016]; root of context hierarchy
+2016-12-15 14:37:25 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:37:25 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:37:26 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:37:26 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:37:26 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69c62352: startup date [Thu Dec 15 14:37:26 CST 2016]; root of context hierarchy
+2016-12-15 14:37:26 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:37:26 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:37:26 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:37:26 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:37:26 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:37:26 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 368 ms
+2016-12-15 14:37:26 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:37:26 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:37:26 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:37:26 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:37:26 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:37:26 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:37:26 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:37:26 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:37:26 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:37:26 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:37:26 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:37:26 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:37:26 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:37:26 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:37:26 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:37:26 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:37:26 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:37:26 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69c62352: startup date [Thu Dec 15 14:37:26 CST 2016]; root of context hierarchy
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:37:26 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:37:26 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:37:26 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:37:26 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:37:26 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:37:26 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:37:26 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:37:26 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.734 seconds (JVM running for 14252.178)
+2016-12-15 14:38:14 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69c62352: startup date [Thu Dec 15 14:37:26 CST 2016]; root of context hierarchy
+2016-12-15 14:38:14 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:38:14 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:38:15 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:38:15 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:38:15 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f3c5bb8: startup date [Thu Dec 15 14:38:15 CST 2016]; root of context hierarchy
+2016-12-15 14:38:15 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:38:15 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:38:15 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:38:15 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:38:15 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:38:15 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 364 ms
+2016-12-15 14:38:15 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:38:15 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:38:15 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:38:15 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:38:15 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:38:15 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:38:15 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:38:15 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:38:15 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:38:15 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:38:15 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:38:15 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:38:15 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:38:15 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:38:15 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:38:15 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:38:15 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:38:15 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f3c5bb8: startup date [Thu Dec 15 14:38:15 CST 2016]; root of context hierarchy
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:38:15 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:38:15 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:38:15 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:38:15 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:38:15 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:38:15 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:38:15 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:38:15 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.721 seconds (JVM running for 14301.193)
+2016-12-15 14:39:03 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f3c5bb8: startup date [Thu Dec 15 14:38:15 CST 2016]; root of context hierarchy
+2016-12-15 14:39:03 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:39:03 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:39:03 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:39:03 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:39:03 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15dd1c78: startup date [Thu Dec 15 14:39:03 CST 2016]; root of context hierarchy
+2016-12-15 14:39:03 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:39:03 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:39:03 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:39:03 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:39:03 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:39:03 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 353 ms
+2016-12-15 14:39:04 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:39:04 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:39:04 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:39:04 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:39:04 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:39:04 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:39:04 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:39:04 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:39:04 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:39:04 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:39:04 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:39:04 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:39:04 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:39:04 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:39:04 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:39:04 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:39:04 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:39:04 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15dd1c78: startup date [Thu Dec 15 14:39:03 CST 2016]; root of context hierarchy
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:39:04 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:39:04 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:39:04 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:39:04 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:39:04 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:39:04 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:39:04 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:39:04 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.709 seconds (JVM running for 14349.726)
+2016-12-15 14:39:14 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 14:39:14 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 14:39:14 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2016-12-15 14:39:14 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 14:39:14 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 14:39:14 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 14:39:14 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 14:39:14 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 14:39:14 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 14:39:14 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 14:40:44 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15dd1c78: startup date [Thu Dec 15 14:39:03 CST 2016]; root of context hierarchy
+2016-12-15 14:40:44 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:40:44 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:40:44 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:40:44 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:40:44 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@bea44b5: startup date [Thu Dec 15 14:40:44 CST 2016]; root of context hierarchy
+2016-12-15 14:40:44 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:40:44 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:40:44 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:40:44 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:40:44 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:40:44 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 362 ms
+2016-12-15 14:40:44 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:40:44 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:40:44 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:40:44 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:40:44 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:40:44 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:40:44 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:40:44 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:40:44 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:40:44 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:40:44 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:40:44 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:40:44 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:40:44 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:40:44 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:40:44 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:40:44 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:40:44 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@bea44b5: startup date [Thu Dec 15 14:40:44 CST 2016]; root of context hierarchy
+2016-12-15 14:40:44 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:40:44 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:40:44 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:40:44 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:40:44 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:40:44 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:40:44 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:40:45 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:40:45 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:40:45 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:40:45 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:40:45 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:40:45 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:40:45 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:40:45 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:40:45 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:40:45 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 0.717 seconds (JVM running for 14450.531)
+2016-12-15 14:40:53 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 14:40:53 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 14:40:53 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2016-12-15 14:40:53 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 14:40:53 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 14:40:53 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 14:40:53 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 14:40:53 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 14:40:53 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 14:40:53 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 14:41:16 [org.springframework.context.support.AbstractApplicationContext:960] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@bea44b5: startup date [Thu Dec 15 14:40:44 CST 2016]; root of context hierarchy
+2016-12-15 14:41:16 [org.springframework.jmx.export.MBeanExporter:449] - Unregistering JMX-exposed beans on shutdown
+2016-12-15 14:41:16 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:41:16 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 10040 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:41:16 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:41:16 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45d0d1a5: startup date [Thu Dec 15 14:41:16 CST 2016]; root of context hierarchy
+2016-12-15 14:41:17 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d838d142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:41:17 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:41:17 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:41:17 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:41:17 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:41:17 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 350 ms
+2016-12-15 14:41:17 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:41:17 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:41:17 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:41:17 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:41:17 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:41:17 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:41:17 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:41:17 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:41:17 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:41:17 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:41:17 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:41:17 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:41:17 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:41:17 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:41:17 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:41:17 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:41:17 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:41:17 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45d0d1a5: startup date [Thu Dec 15 14:41:16 CST 2016]; root of context hierarchy
+2016-12-15 14:41:17 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:41:17 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:41:17 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public java.lang.String app.controller.EmpController.erroPage()
+2016-12-15 14:41:17 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:41:17 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:41:17 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:41:17 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:41:17 [org.apache.juli.logging.DirectJDKLog:180] - Stopping service Tomcat
+2016-12-15 14:41:17 [org.springframework.boot.logging.ClasspathLoggingApplicationListener:57] - Application failed to start with classpath: [file:/D:/%e6%96%87%e6%a1%a3/springmvc/springboot-jpa-thymeleaf/target/classes/]
+2016-12-15 14:41:38 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 11156 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:41:38 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:41:38 [org.hibernate.validator.internal.util.Version:17] - HV000001: Hibernate Validator 5.2.2.Final
+2016-12-15 14:41:38 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ebd50b9: startup date [Thu Dec 15 14:41:38 CST 2016]; root of context hierarchy
+2016-12-15 14:41:40 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b10e14a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:41:40 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:41:40 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:41:40 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:41:40 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:41:40 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 1970 ms
+2016-12-15 14:41:40 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:41:40 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:41:40 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:41:40 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:41:40 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:41:41 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:41:41 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:41:41 [org.hibernate.Version:54] - HHH000412: Hibernate Core {4.3.11.Final}
+2016-12-15 14:41:41 [org.hibernate.cfg.Environment:239] - HHH000206: hibernate.properties not found
+2016-12-15 14:41:41 [org.hibernate.cfg.Environment:346] - HHH000021: Bytecode provider name : javassist
+2016-12-15 14:41:41 [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 14:41:41 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:41:41 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:41:41 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:41:41 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:41:41 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:41:41 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:41:41 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:41:41 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:41:41 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:41:41 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:41:42 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ebd50b9: startup date [Thu Dec 15 14:41:38 CST 2016]; root of context hierarchy
+2016-12-15 14:41:42 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:41:42 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:41:42 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:41:42 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:41:42 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:41:42 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public java.lang.String app.controller.EmpController.erroPage()
+2016-12-15 14:41:42 [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:462] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:41:42 [org.apache.juli.logging.DirectJDKLog:180] - Stopping service Tomcat
+2016-12-15 14:41:42 [org.springframework.boot.logging.ClasspathLoggingApplicationListener:57] - Application failed to start with classpath: [file:/D:/%e6%96%87%e6%a1%a3/springmvc/springboot-jpa-thymeleaf/target/classes/]
+2016-12-15 14:42:57 [org.springframework.boot.StartupInfoLogger:48] - Starting Application on hp-PC with PID 8992 (started by Administrator in D:\文档\springmvc\springboot-jpa-thymeleaf)
+2016-12-15 14:42:57 [org.springframework.boot.SpringApplication:664] - No active profile set, falling back to default profiles: default
+2016-12-15 14:42:57 [org.hibernate.validator.internal.util.Version:17] - HV000001: Hibernate Validator 5.2.2.Final
+2016-12-15 14:42:57 [org.springframework.context.support.AbstractApplicationContext:578] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1272c6ac: startup date [Thu Dec 15 14:42:57 CST 2016]; root of context hierarchy
+2016-12-15 14:42:59 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:328] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$884a8d48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-12-15 14:42:59 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:81] - Tomcat initialized with port(s): 8080 (http)
+2016-12-15 14:42:59 [org.apache.juli.logging.DirectJDKLog:180] - Starting service Tomcat
+2016-12-15 14:42:59 [org.apache.juli.logging.DirectJDKLog:180] - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-12-15 14:42:59 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring embedded WebApplicationContext
+2016-12-15 14:42:59 [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:272] - Root WebApplicationContext: initialization completed in 2153 ms
+2016-12-15 14:43:00 [org.springframework.boot.context.embedded.ServletRegistrationBean:189] - Mapping servlet: 'dispatcherServlet' to [/]
+2016-12-15 14:43:00 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-12-15 14:43:00 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-12-15 14:43:00 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-12-15 14:43:00 [org.springframework.boot.context.embedded.AbstractFilterRegistrationBean:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2016-12-15 14:43:00 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-15 14:43:00 [org.hibernate.jpa.internal.util.LogHelper:46] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-15 14:43:00 [org.hibernate.Version:54] - HHH000412: Hibernate Core {4.3.11.Final}
+2016-12-15 14:43:00 [org.hibernate.cfg.Environment:239] - HHH000206: hibernate.properties not found
+2016-12-15 14:43:00 [org.hibernate.cfg.Environment:346] - HHH000021: Bytecode provider name : javassist
+2016-12-15 14:43:00 [org.hibernate.annotations.common.reflection.java.JavaReflectionManager:66] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-12-15 14:43:00 [org.hibernate.dialect.Dialect:145] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-15 14:43:00 [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47] - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-15 14:43:00 [org.hibernate.tool.hbm2ddl.SchemaUpdate:207] - HHH000228: Running hbm2ddl schema update
+2016-12-15 14:43:00 [org.hibernate.tool.hbm2ddl.SchemaUpdate:218] - HHH000102: Fetching database metadata
+2016-12-15 14:43:00 [org.hibernate.tool.hbm2ddl.SchemaUpdate:230] - HHH000396: Updating schema
+2016-12-15 14:43:00 [org.hibernate.tool.hbm2ddl.TableMetadata:65] - HHH000261: Table found: yanghe.employee
+2016-12-15 14:43:00 [org.hibernate.tool.hbm2ddl.TableMetadata:66] - HHH000037: Columns: [id, pass_word, address, department, name, age, gender, pho_num]
+2016-12-15 14:43:00 [org.hibernate.tool.hbm2ddl.TableMetadata:68] - HHH000108: Foreign keys: []
+2016-12-15 14:43:00 [org.hibernate.tool.hbm2ddl.TableMetadata:69] - HHH000126: Indexes: [primary]
+2016-12-15 14:43:00 [org.hibernate.tool.hbm2ddl.SchemaUpdate:267] - HHH000232: Schema update complete
+2016-12-15 14:43:01 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:532] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1272c6ac: startup date [Thu Dec 15 14:42:57 CST 2016]; root of context hierarchy
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/registerCheck]}" onto public java.lang.String app.controller.EmpController.register(app.entity.Employee)
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/index]}" onto public java.lang.String app.controller.EmpController.index()
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/login]}" onto public java.lang.String app.controller.EmpController.login()
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/loginCheck]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.loginCheck(long,java.lang.String)
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/empManage]}" onto public org.springframework.web.servlet.ModelAndView app.controller.EmpController.empManage()
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:527] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:43:01 [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:341] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-12-15 14:43:02 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2016-12-15 14:43:02 [org.springframework.jmx.export.MBeanExporter:431] - Registering beans for JMX exposure on startup
+2016-12-15 14:43:02 [org.apache.juli.logging.DirectJDKLog:180] - Initializing ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:43:02 [org.apache.juli.logging.DirectJDKLog:180] - Starting ProtocolHandler ["http-nio-8080"]
+2016-12-15 14:43:02 [org.apache.juli.logging.DirectJDKLog:180] - Using a shared selector for servlet write/read
+2016-12-15 14:43:02 [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:162] - Tomcat started on port(s): 8080 (http)
+2016-12-15 14:43:02 [org.springframework.boot.StartupInfoLogger:57] - Started Application in 5.173 seconds (JVM running for 5.8)
+2016-12-15 14:43:06 [org.apache.juli.logging.DirectJDKLog:180] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-12-15 14:43:06 [org.springframework.web.servlet.FrameworkServlet:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2016-12-15 14:43:06 [org.springframework.web.servlet.FrameworkServlet:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2016-12-15 14:43:06 [org.thymeleaf.TemplateEngine:825] - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2016-12-15 14:43:07 [org.thymeleaf.templateresolver.AbstractTemplateResolver:99] - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2016-12-15 14:43:07 [org.thymeleaf.templateresolver.AbstractTemplateResolver:110] - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2016-12-15 14:43:07 [org.thymeleaf.messageresolver.AbstractMessageResolver:72] - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2016-12-15 14:43:07 [org.thymeleaf.messageresolver.AbstractMessageResolver:78] - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2016-12-15 14:43:07 [org.thymeleaf.ConfigurationPrinterHelper:123] - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2016-12-15 14:43:07 [org.thymeleaf.TemplateEngine:838] - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2016-12-15 14:43:19 [app.service.impl.EmpServiceImpl:36] - id:222222pwd:222222222
+2016-12-15 14:43:19 [app.aspect.LogAspect:42] - -----方法findByIdAndPassWord被调用-----
+2016-12-15 14:44:27 [app.service.impl.EmpServiceImpl:36] - id:33333333pwd:3333333
+2016-12-15 14:44:31 [app.aspect.LogAspect:42] - -----方法findByIdAndPassWord被调用-----

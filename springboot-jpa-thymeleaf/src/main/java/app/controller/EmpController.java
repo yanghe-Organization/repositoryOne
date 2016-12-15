@@ -1,6 +1,8 @@
 package app.controller;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import javax.print.attribute.standard.Severity;
@@ -15,6 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import app.entity.Employee;
 import app.entity.ErrorInfo;
+import app.service.EmpService;
 import app.service.impl.EmpServiceImpl;
 
 
@@ -22,7 +25,7 @@ import app.service.impl.EmpServiceImpl;
 public class EmpController {
 	static Logger logger=LoggerFactory.getLogger(EmpController.class);
 	@Autowired
-	private EmpServiceImpl empService;
+	private EmpService empService;
 
 	
 	@RequestMapping("/index")
@@ -51,6 +54,18 @@ public class EmpController {
 		}
 		
 	}
-	
+	@RequestMapping("/empManage")
+	public ModelAndView empManage(){
+		List<Employee> empList=empService.empManage();
+		ModelAndView mav=new ModelAndView();
+		mav.addObject("empList", empList);
+		mav.setViewName("empManage");
+		return mav;
+	}
+	@RequestMapping("/registerCheck")
+	public String register(Employee emp){
+		System.out.println(emp);
+		return "login";
+	}
 	
 }
