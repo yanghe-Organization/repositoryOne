@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<style type="text/css">
+  		td{}
+  		.title{text-align: center}
+  	
+  	</style>
+  
+  </head>
+  <body>
+  	<div style="border: red solid 1px;margin: 100px auto;width: 600px;height:500px">
+	  	<form action="/registerCheck" method="post" th:object="${Employee}">
+	  		<table style="border: blue solid 1px;width: 500px;height: 400px;margin: 50px auto">
+	  			<tr>
+	  				<td class="title">姓名:</td>
+	  				<td><input type="text" id="" name="name"/></td>
+	  				<td><span></span></td>
+	  			</tr>
+	  			<tr>
+	  				<td class="title">密码:</td>
+	  				<td><input type="text" id="" name="passWord"/></td>
+	  				<td><span></span></td>
+	  			</tr>
+	  			<tr>
+	  				<td class="title">性别:</td>
+	  				<td>男<input type="radio" id="" name="gender" value="man"/>女<input type="radio" id="" name="gender" value="woman"/></td>
+	  				<td><span></span></td>
+	  			</tr>
+	  			<tr>
+	  				<td class="title">年龄:</td>
+	  				<td><input type="text" id="" name="age"/></td>
+	  				<td><span></span></td>
+	  			</tr>
+	  			<tr>
+	  				<td class="title">所属部门:</td>
+	  				<td><input type="radio" id="" name="department" value="1"/>开发部<input type="radio" id="" name="department" value="2"/>人事部<input type="radio" id="" name="department" value="3"/>财务部</td>
+	  				<td><span></span></td>
+	  			</tr>
+	  			<tr>
+	  				<td class="title">手机号码:</td>
+	  				<td><input type="text" id="" name="phoNum"/></td>
+	  				<td><span></span></td>
+	  			</tr>
+	  			<tr>
+	  				<td class="title">家庭住址:</td>
+	  				<td><input type="text" id="" name="address"/></td>
+	  				<td><span></span></td>
+	  			</tr>
+	  			<tr>
+	  				<td></td>
+	  				<td><input type="submit" id="" name="" value="注册" style="margin-left:50px ;width: 100px"/></td>
+	  				<td><span></span></td>
+	  			</tr>
+	  		</table>
+	  	
+	  	</form>
+  	</div>
+    <table>
+    
+    
+    </table>
+  </body>
+</html>
