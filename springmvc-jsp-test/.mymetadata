@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="springmvc-jsp-test"
+  id="myeclipse.1481874872227"
+  context-root="/springmvc-jsp-test"
+  j2ee-spec="1.7"
+  archive="springmvc-jsp-test.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
